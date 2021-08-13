@@ -1,0 +1,119 @@
+/* css referente a pagina princial e conteudos */
+.navsup{
+    position: relative;
+    height: 116px;
+    width: 100%; 
+    background-color:#BDBDBD;    
+    float: left;
+    
+    }
+  
+ .principal{
+        width: 700px;
+        height: 1170px;
+        margin:  auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color:#F0CCA8;
+    }
+/* css referente ao ajuste da imagem */
+img{
+    display: block;
+    max-width: 70px;
+    margin-right: auto;
+    margin-left:30px ;
+    margin-top:25px ;
+    
+}
+
+.cabecalho .pagina-atual {
+    margin-left: auto;
+    align-items: center;
+}
+/* * css referente ao ajuste da dos posts */ 
+.card{
+    width: 370px;
+    height: 200px;
+    margin-top: 90px;
+    background-color: #FFF;
+    border-radius: 15px;
+    left: 50px;
+   
+    
+}
+
+.card .titulo-card{
+    font-size: 30px;
+    font-weight: 200;
+    position: relative;
+    margin-right:auto;
+    width: 100px;
+    padding: 15px 20px;
+    
+  
+    
+}
+.card .conteudo-galeria{
+    padding: 15px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+    position: relative;
+    
+  
+}
+
+.card .texto-card{
+    padding: 20px 20px;
+    margin-right: auto;
+    margin-left:auto ;
+    font-size: 34px;
+    font-weight: 300;
+    position: absolute;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.card .likes-card{
+    margin-right: auto;
+    margin-left: left;
+    padding: 100px 50px;
+    display: flex; 
+}
+
+.card .caixa{
+    width: 400px;
+    left: auto;
+    margin-top: -160px;
+    position: relative;
+    padding: 10px 10px;
+    display: block;
+    
+}
+
+.card .botao{
+    margin-top: -320px;
+    padding: 200px;
+    margin-left: 80px;
+    margin-right: auto;
+    display: block;
+}
+
+.card input[type="texto"] {
+    width: 350px;
+    height: 40px;
+    margin-left: auto;
+    padding:10px 0;
+    border-radius: 10px;
+}
+
+
+.card #botoon{
+    margin-top: -0px;
+    margin-left: 200px;
+    margin-right: auto;
+    display: block;
+    
+}
+

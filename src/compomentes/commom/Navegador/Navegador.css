@@ -1,0 +1,37 @@
+/* css referente a barra de navegação */
+.navegador {
+    position: absolute;
+    margin-bottom: 15px;
+    display: flex;
+    cursor: pointer;
+    color: #faf3f3;
+    background-color:transparent;
+    padding: 50px 50px;
+    margin-left:22% ;
+    
+}
+.usuario{
+    float: right;
+    position: relative;
+    display: block;
+    padding: 8px;
+    color: black;
+    
+}
+
+
+.navegador .link-navegador{
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.navegador .link-navegador{
+    background-color: #8a8989;
+}
+
+.navegador .link-navegador.active{
+    
+    background-color: #A3A3A3;
+}
